@@ -1,0 +1,26 @@
+{
+    "name": "happgo/lib",
+    "type": "library",
+    "description": "this is lib",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "zhangbofa",
+            "email": "626223818@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">7.1.0",
+        "vlucas/phpdotenv": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Happgo\\Lib\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    }
+}
